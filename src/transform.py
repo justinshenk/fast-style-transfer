@@ -53,7 +53,7 @@ def _instance_norm(net, train=True):
     shift = tf.Variable(tf.zeros(var_shape))
     scale = tf.Variable(tf.ones(var_shape))
     epsilon = 1e-3
-    normalized = (net-mu)/(sigma_sq + epsilon)**(.5)
+    normalized = (net-mu) * tf.math.rsqrt(sigma_sq + epsilon)
     return scale * normalized + shift
 
 def _conv_init_vars(net, out_channels, filter_size, transpose=False):
