@@ -2,9 +2,9 @@
 
 **Additions in fork:**
 
-* `create_pb.py`
-* replace exponential in `evaluate.py` with `tf.rsqrt`
-* `model.xml` and `model.bin`
+* `create_pb.py` for converting TensorFlow `ckpt` to `pb`
+* replace exponential in `evaluate.py` with `tf.rsqrt` for OpenVINO compatibility
+* `model.xml` and `model.bin` for running with OpenVINO
 * `style_transfer_webcam.py` (Run this with `-m model.xml` after installing OpenVINO)
 
 ---
