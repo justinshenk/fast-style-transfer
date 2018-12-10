@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-"""Run from root directory of repo https://github.com/lengstrom/fast-style-transfer to
+"""Run from root directory of repo https://github.com/justinshenk/fast-style-transfer to
 create a .pb for use with OpenVINO.
 """
 import sys
