@@ -2,10 +2,10 @@
 
 **Additions in fork:**
 
- -`create_pb.py`
- -replace exponential in `evaluate.py` with `tf.rsqrt`
- -`model.xml` and `model.bin`
- -`style_transfer_webcam.py` (Run this with `-m model.xml` after installing OpenVINO)
+* `create_pb.py`
+* replace exponential in `evaluate.py` with `tf.rsqrt`
+* `model.xml` and `model.bin`
+* `style_transfer_webcam.py` (Run this with `-m model.xml` after installing OpenVINO)
 
 Add styles from famous paintings to any photo in a fraction of a second! [You can even style videos!](#video-stylization)
 
