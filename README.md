@@ -2,7 +2,7 @@
 
 **Additions in fork:**
 
-* `create_pb.py` for converting TensorFlow `ckpt` to `pb`
+* `create_pb.py` for converting TensorFlow .ckpt to .pb
 * [replace exponential](https://github.com/justinshenk/fast-style-transfer/commit/1f3b30fcdd2f0041cb16e6e68c4a3ccb7ffdb475)  in `transform.py` with `tf.rsqrt` for OpenVINO compatibility
 * `model.xml` and `model.bin` for running with OpenVINO
 * `style_transfer_webcam.py` (Run this with `-m model.xml` after installing OpenVINO)
